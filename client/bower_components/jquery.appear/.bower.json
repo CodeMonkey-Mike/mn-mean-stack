@@ -1,0 +1,13 @@
+{
+  "name": "jquery.appear",
+  "homepage": "https://github.com/bas2k/jquery.appear",
+  "_release": "f78b951ead",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f78b951eadf6d0b1c311640976806d9ee347c5b0"
+  },
+  "_source": "git://github.com/bas2k/jquery.appear.git",
+  "_target": "*",
+  "_originalSource": "bas2k/jquery.appear"
+}

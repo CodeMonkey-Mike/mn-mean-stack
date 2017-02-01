@@ -1,0 +1,63 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div id="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Testimonials</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    <div class="col-lg-8">
+
+      <ul class="list-group">
+        <li class="list-group-item" ng-repeat="testimonial in testimonials">
+          <div class="row">
+            <div class="col-xs-10">
+              <h3 class="text-primary">{{testimonial.name}}</h3>
+
+              <p class="text-muted">{{testimonial.company}}</p>
+
+              <p>{{testimonial.quote}}</p>
+            </div>
+            <div class="col-xs-2">
+              <a ng-click="delete(testimonial.name, testimonial)" class="trash"><span class="glyphicon glyphicon-trash pull-right"></span></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-horizontal" ng-submit="addTestimonial(form)">
+        <div class="form-group">
+          <label class="col-sm-3">Name</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newTestimonial.name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Company</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newTestimonial.company">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Quote</label>
+
+          <div class="col-sm-9">
+            <textarea class="form-control" ng-model="newTestimonial.quote" rows="5"></textarea>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-9">
+            <button type="submit" class="btn btn-primary">Add</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

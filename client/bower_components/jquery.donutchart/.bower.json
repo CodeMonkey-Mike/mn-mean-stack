@@ -1,0 +1,13 @@
+{
+  "name": "jquery.donutchart",
+  "homepage": "https://github.com/mtibben/jquery.donutchart",
+  "_release": "cf9fc61654",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cf9fc61654a3824692a202852e2cd4e23868d7d0"
+  },
+  "_source": "git://github.com/mtibben/jquery.donutchart.git",
+  "_target": "*",
+  "_originalSource": "mtibben/jquery.donutchart"
+}
