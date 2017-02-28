@@ -43,7 +43,7 @@ angular.module('mnMeanApp')
             jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 809));
           else
             $timeout(ScaleSlider, 30);
-        }
+        };
         ScaleSlider();
         if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
           $(window).bind('resize', ScaleSlider);

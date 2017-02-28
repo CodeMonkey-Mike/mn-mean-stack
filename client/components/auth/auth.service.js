@@ -98,8 +98,26 @@ angular.module('mnMeanApp')
        *
        * @return {Object} user
        */
-      getCurrentUser: function() {
-        return currentUser;
+      getCurrentUser: function(callback) {
+        if (arguments.length === 0) {
+          return currentUser;
+        }
+
+        var value = (currentUser.hasOwnProperty('$promise')) ? currentUser.$promise : currentUser;
+        return $q.when(value).then(function(user) {
+          safeCb(callback)(user);
+          return user;
+        }, function() {
+          safeCb(callback)({});
+          return {};
+        });
+      },
+
+      isDemoAdmin: function() {
+        var value = (currentUser.hasOwnProperty('$promise')) ? currentUser.$promise : currentUser;
+        return $q.when(value).then(function(user) {
+          return user.email === 'admin@admin.com';
+        });
       },
 
       /**

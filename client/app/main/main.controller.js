@@ -1,8 +1,30 @@
 'use strict';
 
 angular.module('mnMeanApp')
-  .controller('MainCtrl', ['$scope', 'socket', 'Profile', 'Skill', 'Education', 'Process', 'Experience', 'Service', 'Award', 'Testimonial', 'Portfolio',
-    function ($scope, socket, Profile, Skill, Education, Process, Experience, Service, Award, Testimonial, Portfolio) {
+  .controller('MainCtrl', ['$scope', '$state', 'socket', 'Auth', "Contact", "Modal", "profile", "skills", "educations", "processes", "experiences", "services", "awards", "testimonials", "portfolios", "channels",
+    function ($scope, $state, socket, Auth, Contact, Modal, profile, skills, educations, processes, experiences, services, awards, testimonials, portfolios, channels) {
+      $scope.profile = profile;
+      $scope.skills = skills;
+      $scope.educations = educations;
+      $scope.processes = processes;
+      $scope.experiences = experiences;
+      $scope.services = services;
+      $scope.awards = awards;
+      $scope.testimonials = testimonials;
+      $scope.portfolios = portfolios;
+      $scope.channels = channels;
+      $scope.contact = {};
+
+      socket.syncUpdates('skill', $scope.skills);
+      socket.syncUpdates('education', $scope.educations);
+      socket.syncUpdates('process', $scope.processes);
+      socket.syncUpdates('experience', $scope.experiences);
+      socket.syncUpdates('service', $scope.services);
+      socket.syncUpdates('award', $scope.awards);
+      socket.syncUpdates('testimonial', $scope.testimonials);
+      socket.syncUpdates('portfolio', $scope.portfolios);
+      socket.syncUpdates('channel', $scope.channels);
+
       $scope.jssorOptions = {
         $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
         $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
@@ -35,53 +57,6 @@ angular.module('mnMeanApp')
         }
       };
 
-      $scope.init = function() {
-        Profile.get(function(profile) {
-          $scope.profile = profile;
-        });
-
-        Skill.query(function(skills) {
-          $scope.skills = skills;
-          socket.syncUpdates('skill', $scope.skills);
-        });
-
-        Education.query(function(educations) {
-          $scope.educations = educations;
-          socket.syncUpdates('education', $scope.educations);
-        });
-
-        Process.query(function(processes) {
-          $scope.processes = processes;
-          socket.syncUpdates('process', $scope.processes);
-        });
-
-        Experience.query(function(experiences) {
-          $scope.experiences = experiences;
-          socket.syncUpdates('experience', $scope.experiences);
-        });
-
-        Service.query(function(services) {
-          $scope.services = services;
-          socket.syncUpdates('service', $scope.services);
-        });
-
-        Award.query(function(awards) {
-          $scope.awards = awards;
-          socket.syncUpdates('award', $scope.awards);
-        });
-
-        Testimonial.query(function(testimonials) {
-          $scope.testimonials = testimonials;
-          socket.syncUpdates('testimonial', $scope.testimonials);
-        });
-
-        Portfolio.query(function(portfolios) {
-          $scope.portfolios = portfolios;
-          socket.syncUpdates('portfolio', $scope.portfolios);
-        });
-      };
-
-      $scope.init();
 
       $scope.showDetail = function(portfolio) {
         $scope.selectedPortfolio = portfolio;
@@ -90,6 +65,34 @@ angular.module('mnMeanApp')
 
       $scope.closeDetail = function() {
         $scope.selectedPortfolio = null;
+      };
+
+      $scope.contactMe = function() {
+        if ($scope.contact === {}) {
+          return;
+        }
+        if ($scope.contactForm.$valid) {
+          Contact.send($scope.contact).$promise.then(function (data) {
+            Modal.success('<p>Your message has been sent successfully.</p>').then(function () {
+              // reset form
+              $scope.contact = {};
+            });
+          }).catch(function (err) {
+            err = err.data;
+            $scope.errors = {};
+
+            // Update validity of form fields that match the mongoose errors
+            angular.forEach(err.errors, function (error, field) {
+              $scope.contactForm[field].$setValidity('mongoose', false);
+              $scope.errors[field] = error.message;
+            });
+          });
+        }
+      };
+
+      $scope.logout = function() {
+        Auth.logout();
+        $state.go('main');
       };
 
       $scope.$on('$destroy', function () {

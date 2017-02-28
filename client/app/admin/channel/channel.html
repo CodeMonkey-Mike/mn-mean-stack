@@ -1,0 +1,41 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div id="page-wrapper" class="admin">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">Channel <a ui-sref="admin:channel:add" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Add Channel</a></h2>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    <div class="col-xs-12">
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Icon</th>
+            <th>Url</th>
+            <th>Visible</th>
+            <th>Edit/Remove</th>
+          </tr>
+        </thead>
+        <tbody ui-sortable="sortableOptions" ng-model="channels">
+          <tr ng-repeat="channel in channels">
+            <td><span><i class="fa {{channel.icon}} fa-2x"></i></span></td>
+            <td>{{channel.url}}</td>
+            <td>{{channel.visible? 'Yes' : 'No'}}</td>
+            <td>
+              <a class="btn" ui-sref="admin:channel:edit({channelId:channel._id})"><i class="fa fa-pencil-square-o"></i></a>
+              <a class="confirm-delete btn" role="button" ng-click="delete(channel.url, channel)" ng-if="!demoMode"><i class="fa fa-trash-o"></i></a>
+              <a class="confirm-delete btn" role="button" ng-if="demoMode"><i class="fa fa-trash-o"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
+

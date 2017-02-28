@@ -8,17 +8,19 @@ angular.module('mnMeanApp', [
   'ui.router',
   'ui.bootstrap',
   'naif.base64',
-  'dang-jssor'
+  'dang-jssor',
+  'ui.sortable'
 ])
-  .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
+  .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider',
+    function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
       .otherwise('/');
 
     $locationProvider.html5Mode(true);
     $httpProvider.interceptors.push('authInterceptor');
-  })
+  }])
 
-  .factory('authInterceptor', function ($rootScope, $q, $cookies, $location) {
+  .factory('authInterceptor', ['$rootScope', '$q', '$cookies', '$location', function ($rootScope, $q, $cookies, $location) {
     return {
       // Add authorization token to headers
       request: function (config) {
@@ -32,7 +34,7 @@ angular.module('mnMeanApp', [
       // Intercept 401s and redirect you to login
       responseError: function(response) {
         if(response.status === 401) {
-          $location.path('/login');
+          $location.path('/admin/login');
           // remove any stale tokens
           $cookies.remove('token');
           return $q.reject(response);
@@ -42,9 +44,9 @@ angular.module('mnMeanApp', [
         }
       }
     };
-  })
+  }])
 
-  .run(function ($rootScope, $location, $state, Auth) {
+  .run(['$rootScope', '$location', '$state', 'Auth', function($rootScope, $location, $state, Auth) {
     $rootScope.$state = $state;
 
     // Redirect to login if route requires auth and you're not logged in
@@ -52,8 +54,8 @@ angular.module('mnMeanApp', [
       Auth.isLoggedInAsync(function(loggedIn) {
         if (next.authenticate && !loggedIn) {
           event.preventDefault();
-          $location.path('/login');
+          $state.go('admin:login');
         }
       });
     });
-  });
+  }]);

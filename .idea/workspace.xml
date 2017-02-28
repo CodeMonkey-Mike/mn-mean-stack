@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d11dafd-3382-40b6-a1d9-eb7a8965471b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/assets/MediaKit.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/award/award-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/award/award-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/channel/channel-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/channel/channel-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/channel/channel.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/channel/channel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/services/channel/channel.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/services/channel/channel.service.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/services/contact/contact.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/services/data/data.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/services/data/data.service.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/education/education-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/education/education-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/experience/experience-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/experience/experience-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/isotope/isotope.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/isotope/isotope.directive.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/login/login.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/login/login.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/password/password.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/password/password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/process/process-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/process/process-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/scrollup/scrollup.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/scrollup/scrollup.directive.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/service/service-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/service/service-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/skill/skill-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/skill/skill-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/testimonial/testimonial-add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/admin/testimonial/testimonial-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/texture/-white-dot.png" afterPath="$PROJECT_DIR$/client/assets/images/texture/-white-dot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/hover/-zoom_icon.png" afterPath="$PROJECT_DIR$/client/assets/images/hover/-zoom_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/01-tunnel.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/01-tunnel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/03-bridge.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/03-bridge.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/Brand-Development1.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/Brand-Development1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/LeadSalesCycleGraphic.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/LeadSalesCycleGraphic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/Web-Design-Development.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/Web-Design-Development.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/Website-Design-Development.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/Website-Design-Development.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/about1.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/about1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/about2.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/about2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/ico/apple-touch-icon-144-precomposed.png" afterPath="$PROJECT_DIR$/client/assets/images/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/hover/arrow_icon.png" afterPath="$PROJECT_DIR$/client/assets/images/hover/arrow_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrow_large_left.png" afterPath="$PROJECT_DIR$/client/assets/images/arrow_large_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrow_large_right.png" afterPath="$PROJECT_DIR$/client/assets/images/arrow_large_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrow_left.png" afterPath="$PROJECT_DIR$/client/assets/images/arrow_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrow_left2.png" afterPath="$PROJECT_DIR$/client/assets/images/arrow_left2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrow_right.png" afterPath="$PROJECT_DIR$/client/assets/images/arrow_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrow_right2.png" afterPath="$PROJECT_DIR$/client/assets/images/arrow_right2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrowleft.png" afterPath="$PROJECT_DIR$/client/assets/images/arrowleft.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/arrowright.png" afterPath="$PROJECT_DIR$/client/assets/images/arrowright.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/videos/back.mp4" afterPath="$PROJECT_DIR$/client/assets/videos/back.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/videos/back.webm" afterPath="$PROJECT_DIR$/client/assets/videos/back.webm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bg1.jpg" afterPath="$PROJECT_DIR$/client/assets/images/bg1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bg2.jpg" afterPath="$PROJECT_DIR$/client/assets/images/bg2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bg3.jpg" afterPath="$PROJECT_DIR$/client/assets/images/bg3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bgd1.jpg" afterPath="$PROJECT_DIR$/client/assets/images/bgd1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bgd3.jpg" afterPath="$PROJECT_DIR$/client/assets/images/bgd3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/texture/black-dot.png" afterPath="$PROJECT_DIR$/client/assets/images/texture/black-dot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/black50.png" afterPath="$PROJECT_DIR$/client/assets/images/black50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/boxed_bgtile.png" afterPath="$PROJECT_DIR$/client/assets/images/boxed_bgtile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bull.png" afterPath="$PROJECT_DIR$/client/assets/images/bull.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bullet.png" afterPath="$PROJECT_DIR$/client/assets/images/bullet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bullet_boxed.png" afterPath="$PROJECT_DIR$/client/assets/images/bullet_boxed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bullets.png" afterPath="$PROJECT_DIR$/client/assets/images/bullets.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/bullets2.png" afterPath="$PROJECT_DIR$/client/assets/images/bullets2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/close.png" afterPath="$PROJECT_DIR$/client/assets/images/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/coloredbg.png" afterPath="$PROJECT_DIR$/client/assets/images/coloredbg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/grain.png" afterPath="$PROJECT_DIR$/client/assets/images/grain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/gridtile.png" afterPath="$PROJECT_DIR$/client/assets/images/gridtile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/gridtile_3x3.png" afterPath="$PROJECT_DIR$/client/assets/images/gridtile_3x3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/gridtile_3x3_white.png" afterPath="$PROJECT_DIR$/client/assets/images/gridtile_3x3_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/gridtile_white.png" afterPath="$PROJECT_DIR$/client/assets/images/gridtile_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/hero.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/hero.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/large_left.png" afterPath="$PROJECT_DIR$/client/assets/images/large_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/large_right.png" afterPath="$PROJECT_DIR$/client/assets/images/large_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/loader.gif" afterPath="$PROJECT_DIR$/client/assets/images/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/logo.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/logo_pw.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/logo_pw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/mike.jpg" afterPath="$PROJECT_DIR$/client/assets/images/mike.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/mike.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/mike.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/navigdots.png" afterPath="$PROJECT_DIR$/client/assets/images/navigdots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/navigdots_bgtile.png" afterPath="$PROJECT_DIR$/client/assets/images/navigdots_bgtile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/netishop-logo.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/netishop-logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/progress.gif" afterPath="$PROJECT_DIR$/client/assets/images/progress.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/progress@2x.gif" afterPath="$PROJECT_DIR$/client/assets/images/progress@2x.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/servi-blue.png" afterPath="$PROJECT_DIR$/client/assets/images/servi-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/servi-white1.png" afterPath="$PROJECT_DIR$/client/assets/images/servi-white1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/servi.png" afterPath="$PROJECT_DIR$/client/assets/images/servi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/shadow1.png" afterPath="$PROJECT_DIR$/client/assets/images/shadow1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/shadow2.png" afterPath="$PROJECT_DIR$/client/assets/images/shadow2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/shadow3.png" afterPath="$PROJECT_DIR$/client/assets/images/shadow3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/shutterstock.png" afterPath="$PROJECT_DIR$/client/assets/images/uploads/shutterstock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/signature/signature.png" afterPath="$PROJECT_DIR$/client/assets/images/signature/signature.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/signaturemn.png" afterPath="$PROJECT_DIR$/client/assets/images/signaturemn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/slide1.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/slide1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/slide3.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/slide3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/uploads/slide4.jpg" afterPath="$PROJECT_DIR$/client/assets/images/uploads/slide4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/small_left.png" afterPath="$PROJECT_DIR$/client/assets/images/small_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/small_left_boxed.png" afterPath="$PROJECT_DIR$/client/assets/images/small_left_boxed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/small_right.png" afterPath="$PROJECT_DIR$/client/assets/images/small_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/small_right_boxed.png" afterPath="$PROJECT_DIR$/client/assets/images/small_right_boxed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/timer.png" afterPath="$PROJECT_DIR$/client/assets/images/timer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/timerdot.png" afterPath="$PROJECT_DIR$/client/assets/images/timerdot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/tool.png" afterPath="$PROJECT_DIR$/client/assets/images/tool.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/slider/transparent.png" afterPath="$PROJECT_DIR$/client/assets/images/slider/transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/slider/fullwidth/transparent.png" afterPath="$PROJECT_DIR$/client/assets/images/slider/fullwidth/transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/slider/fullwidth/videoshadow.png" afterPath="$PROJECT_DIR$/client/assets/images/slider/fullwidth/videoshadow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/texture/white-dot.png" afterPath="$PROJECT_DIR$/client/assets/images/texture/white-dot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/white50.png" afterPath="$PROJECT_DIR$/client/assets/images/white50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/yeoman.png" afterPath="$PROJECT_DIR$/client/assets/images/yeoman.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/hover/zoom_bg.png" afterPath="$PROJECT_DIR$/client/assets/images/hover/zoom_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/images/hover/zoom_icon.png" afterPath="$PROJECT_DIR$/client/assets/images/hover/zoom_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/admin.js" afterPath="$PROJECT_DIR$/client/app/admin/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.js" afterPath="$PROJECT_DIR$/client/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.less" afterPath="$PROJECT_DIR$/client/app/app.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/auth/auth.service.js" afterPath="$PROJECT_DIR$/client/components/auth/auth.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/award/award.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/award/award.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/award/award.html" afterPath="$PROJECT_DIR$/client/app/admin/award/award.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/education/education.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/education/education.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/education/education.html" afterPath="$PROJECT_DIR$/client/app/admin/education/education.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/experience/experience.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/experience/experience.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/experience/experience.html" afterPath="$PROJECT_DIR$/client/app/admin/experience/experience.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/jssorSlider/jssorSlider.directive.js" afterPath="$PROJECT_DIR$/client/components/jssorSlider/jssorSlider.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main/main.controller.js" afterPath="$PROJECT_DIR$/client/app/main/main.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main/main.html" afterPath="$PROJECT_DIR$/client/app/main/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main/main.js" afterPath="$PROJECT_DIR$/client/app/main/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main/main.less" afterPath="$PROJECT_DIR$/client/app/main/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navbar/navbar.controller.js" afterPath="$PROJECT_DIR$/client/components/navbar/navbar.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/navbar/navbar.html" afterPath="$PROJECT_DIR$/client/components/navbar/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.html" afterPath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.less" afterPath="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/process/process.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/process/process.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/process/process.html" afterPath="$PROJECT_DIR$/client/app/admin/process/process.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/profile/profile.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/profile/profile.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/profile/profile.html" afterPath="$PROJECT_DIR$/client/app/admin/profile/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/service/service.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/service/service.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/service/service.html" afterPath="$PROJECT_DIR$/client/app/admin/service/service.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/skill/skill.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/skill/skill.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/skill/skill.html" afterPath="$PROJECT_DIR$/client/app/admin/skill/skill.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/testimonial/testimonial.controller.js" afterPath="$PROJECT_DIR$/client/app/admin/testimonial/testimonial.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/admin/testimonial/testimonial.html" afterPath="$PROJECT_DIR$/client/app/admin/testimonial/testimonial.html" />
+    </list>
+    <ignored path="mn-mean-stack.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mn-mean-stack" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/main/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="847">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/app/admin/portfolio/portfolio.controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGruntFileManager">
+    <gruntfiles>
+      <GruntfileState>
+        <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
+      </GruntfileState>
+    </gruntfiles>
+    <initial>false</initial>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="38" />
+    <option name="width" value="1922" />
+    <option name="height" value="1009" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mn-mean-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mn-mean" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d11dafd-3382-40b6-a1d9-eb7a8965471b" name="Default" comment="" />
+      <created>1488307096806</created>
+      <option name="number" value="Default" />
+      <updated>1488307096806</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="38" width="1922" height="1009" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15495208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/app/main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

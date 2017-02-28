@@ -218,7 +218,7 @@
       <ul class="dropdown-menu dropdown-user">
         <!--<li><a href="#"><i class="fa fa-user fa-fw"></i> User profile</a>-->
         <!--</li>-->
-        <li><a href="/settings"><i class="fa fa-gear fa-fw"></i> Settings</a>
+        <li><a ui-sref="admin:password"><i class="fa fa-key fa-fw"></i> Change Password</a>
         </li>
         <li class="divider"></li>
         <li><a href="" ng-click="logout()"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -245,43 +245,40 @@
           <!--&lt;!&ndash; /input-group &ndash;&gt;-->
         <!--</li>-->
         <li>
-          <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+          <a ui-sref="admin:profile"><i class="fa fa-user fa-fw"></i> About Me</a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-user fa-fw"></i> About Me<span class="fa arrow"></span></a>
-          <ul class="nav nav-second-level">
-            <li>
-              <a href="/admin/profile">Profile</a>
-            </li>
-            <li>
-              <a href="/admin/profile">Images</a>
-            </li>
-          </ul>
-          <!-- /.nav-second-level -->
+          <a ui-sref="admin:skill"><i class="fa fa-table fa-fw"></i> My Skills</a>
         </li>
         <li>
-          <a href="/admin/skill"><i class="fa fa-table fa-fw"></i> My Skills</a>
+          <a ui-sref="admin:education"><i class="fa fa-graduation-cap fa-fw"></i> Education</a>
         </li>
         <li>
-          <a href="/admin/education"><i class="fa fa-graduation-cap fa-fw"></i> Education</a>
+          <a ui-sref="admin:process"><i class="fa fa-gears fa-fw"></i> Process</a>
         </li>
         <li>
-          <a href="/admin/process"><i class="fa fa-gears fa-fw"></i> Process</a>
+          <a ui-sref="admin:experience"><i class="fa fa-history fa-fw"></i> Work Experience</a>
         </li>
         <li>
-          <a href="/admin/experience"><i class="fa fa-history fa-fw"></i> Work Experience</a>
+          <a ui-sref="admin:service"><i class="fa fa-suitcase fa-fw"></i> Services</a>
         </li>
         <li>
-          <a href="/admin/service"><i class="fa fa-suitcase fa-fw"></i> Services</a>
+          <a ui-sref="admin:portfolio"><i class="fa fa-sliders fa-fw"></i> Portfolio</a>
         </li>
         <li>
-          <a href="/admin/portfolio"><i class="fa fa-sliders fa-fw"></i> Portfolio</a>
+          <a ui-sref="admin:testimonial"><i class="fa fa-comment fa-fw"></i> Testimonials</a>
         </li>
         <li>
-          <a href="/admin/testimonial"><i class="fa fa-comment fa-fw"></i> Testimonials</a>
+          <a ui-sref="admin:award"><i class="fa fa-star fa-fw"></i> Awards</a>
         </li>
         <li>
-          <a href="/admin/award"><i class="fa fa-star fa-fw"></i> Awards</a>
+          <a ui-sref="admin:channel"><i class="fa fa-code-fork fa-fw"></i> Social Channels</a>
+        </li>
+        <li>
+          <a ui-sref="admin:password"><i class="fa fa-key fa-fw"></i> Change Password</a>
+        </li>
+        <li>
+          <a href="#" ng-click="logout()"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
         </li>
       </ul>
     </div>

@@ -1,10 +1,11 @@
 'use strict';
 
 angular.module('mnMeanApp')
-  .controller('ServiceCtrl', ['$scope', 'socket', 'Service', 'Modal',
-    function ($scope, socket, Service, Modal) {
+  .controller('ServiceCtrl', ['$scope', 'socket', 'Service', 'Modal', 'demoMode',
+    function ($scope, socket, Service, Modal, demoMode) {
 
       $scope.services = [];
+      $scope.demoMode = demoMode;
 
       Service.query(function(services) {
         $scope.services = services;
@@ -41,4 +42,28 @@ angular.module('mnMeanApp')
       $scope.$on('$destroy', function () {
         socket.unsyncUpdates('service');
       });
-    }]);
+    }])
+  .controller('ServiceEditCtrl', ['$scope', '$stateParams', 'Service', 'Modal', 'demoMode', 'service',
+    function ($scope, $stateParams, Service, Modal, demoMode, service) {
+      $scope.service = service;
+      $scope.demoMode = demoMode;
+
+      $scope.updateService = function() {
+      $scope.submitted = true;
+      if ($scope.form.$valid) {
+        Service.update({serviceId: $stateParams.serviceId}, $scope.service).$promise.then(function(data) {
+          Modal.success('<p>The service <strong>' + data.name + '</strong> has been successfully updated.</p>');
+        }).catch(function(err) {
+          err = err.data;
+          $scope.errors = {};
+
+          // Update validity of form fields that match the mongoose errors
+          angular.forEach(err.errors, function(error, field) {
+            $scope.form[field].$setValidity('mongoose', false);
+            $scope.errors[field] = error.message;
+          });
+        });
+      }
+    };
+  }]);
+

@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('mnMeanApp')
-  .controller('ProfileCtrl', ['$scope', 'Profile', 'Modal', function ($scope, Profile, Modal) {
+  .controller('ProfileCtrl', ['$scope', 'Profile', 'Modal', 'demoMode', function ($scope, Profile, Modal, demoMode) {
+    $scope.demoMode = demoMode;
 
     Profile.get(function(profile) {
       $scope.profile = profile;

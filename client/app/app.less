@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import 'bootstrap/less/bootstrap.less';
 @import 'startbootstrap-sb-admin-2/less/sb-admin-2.less';
 @import 'font-awesome/less/font-awesome.less';
@@ -18,7 +19,7 @@
 }
 
 // injector
-@import 'account/login/login.less';
+@import 'admin/login/login.less';
 @import 'admin/portfolio/portfolio.less';
 @import 'admin/profile/profile.less';
 @import 'admin/service/service.less';
@@ -48,6 +49,36 @@
 }
 .owl-theme .owl-controls .owl-page span {
   background: #3498db;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  color: #cccccc;
+  background: #222222;
+  display: inline-block;
+  zoom: 1;
+  font-size: 60px;
+  line-height: 1.1;
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+  margin-top: 0px!important;
+  margin-right: 4px;
+  margin-bottom: 0px!important;
+  margin-left: 4px;
+  padding: 0;
+  border-radius: 0;
+  width: 80px;
+  height: 80px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  margin-left: -80px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  margin-right: -80px;
 }
 .education-timeline .programe {
   color: #3498db;
@@ -281,6 +312,6 @@
     width: 100% !important;
   }
   #slider1_container{
-    left: 250px !important;
+    left: 330px !important;
   }
 }

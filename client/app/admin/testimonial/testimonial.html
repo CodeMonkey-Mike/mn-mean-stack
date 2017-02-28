@@ -1,63 +1,40 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 
-<div id="page-wrapper">
+<div id="page-wrapper" class="admin">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">Testimonials</h1>
+      <h2 class="page-header">Testimonials <a ui-sref="admin:testimonial:add" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Add Testimonial</a></h2>
     </div>
     <!-- /.col-lg-12 -->
   </div>
   <!-- /.row -->
 
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-xs-12">
 
-      <ul class="list-group">
-        <li class="list-group-item" ng-repeat="testimonial in testimonials">
-          <div class="row">
-            <div class="col-xs-10">
-              <h3 class="text-primary">{{testimonial.name}}</h3>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Quote</th>
+            <th>Edit/Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="testimonial in testimonials">
+            <td>{{testimonial.name}}</td>
+            <td>{{testimonial.company}}</td>
+            <td>{{testimonial.quote | limitTo: 30}} ...</td>
+            <td>
+              <a class="btn" ui-sref="admin:testimonial:edit({testimonialId: testimonial._id})"><i class="fa fa-pencil-square-o"></i></a>
+              <a class="confirm-delete btn" role="button" ng-click="delete(testimonial.name, testimonial)" ng-if="!demoMode"><i class="fa fa-trash-o"></i></a>
+              <a class="confirm-delete btn" role="button" ng-if="demoMode"><i class="fa fa-trash-o"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-              <p class="text-muted">{{testimonial.company}}</p>
-
-              <p>{{testimonial.quote}}</p>
-            </div>
-            <div class="col-xs-2">
-              <a ng-click="delete(testimonial.name, testimonial)" class="trash"><span class="glyphicon glyphicon-trash pull-right"></span></a>
-            </div>
-          </div>
-        </li>
-      </ul>
-
-      <form class="form-horizontal" ng-submit="addTestimonial(form)">
-        <div class="form-group">
-          <label class="col-sm-3">Name</label>
-
-          <div class="col-sm-9">
-            <input type="text" class="form-control" ng-model="newTestimonial.name">
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="col-sm-3">Company</label>
-
-          <div class="col-sm-9">
-            <input type="text" class="form-control" ng-model="newTestimonial.company">
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="col-sm-3">Quote</label>
-
-          <div class="col-sm-9">
-            <textarea class="form-control" ng-model="newTestimonial.quote" rows="5"></textarea>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="col-sm-offset-3 col-sm-9">
-            <button type="submit" class="btn btn-primary">Add</button>
-          </div>
-        </div>
-      </form>
     </div>
   </div>
 </div>

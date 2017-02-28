@@ -1,36 +1,37 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 
-<div id="page-wrapper">
+<div id="page-wrapper" class="admin">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">My Skills</h1>
+      <h2 class="page-header">My Skills <a ui-sref="admin:skill:add" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Add Skill</a></h2>
     </div>
     <!-- /.col-lg-12 -->
   </div>
   <!-- /.row -->
 
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-xs-12">
 
-      <ul class="list-group">
-        <li class="list-group-item" ng-repeat="skill in skills">
-          <strong>{{skill.name}}</strong><br>
-          <span class="text-muted">{{skill.strength}}%</span>
-          <a ng-click="delete(skill.name, skill)" class="trash"><span class="glyphicon glyphicon-trash pull-right"></span></a>
-        </li>
-      </ul>
-
-      <form class="form-inline">
-        <label>Add new skill</label>
-
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Enter skill name" ng-model="newSkill.name">
-        </div>
-        <div class="form-group">
-          <input type="number" min="0" max="100" step="1" class="form-control" ng-model="newSkill.strength">
-        </div>
-        <button type="submit" class="btn btn-primary" ng-click="addSkill()">Add New</button>
-      </form>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Strength</th>
+            <th>Edit/Remove</th>
+          </tr>
+        </thead>
+        <tbody ui-sortable="sortableOptions" ng-model="skills">
+          <tr ng-repeat="skill in skills">
+            <td>{{skill.name}}</td>
+            <td>{{skill.strength}}%</td>
+            <td>
+              <a class="btn" ui-sref="admin:skill:edit({skillId:skill._id})"><i class="fa fa-pencil-square-o"></i></a>
+              <a class="confirm-delete btn" role="button" ng-click="delete(skill.name, skill)" ng-if="!demoMode"><i class="fa fa-trash-o"></i></a>
+              <a class="confirm-delete btn" role="button" ng-if="demoMode"><i class="fa fa-trash-o"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>

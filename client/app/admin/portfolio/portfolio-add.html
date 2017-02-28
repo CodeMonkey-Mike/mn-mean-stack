@@ -1,0 +1,134 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div id="page-wrapper" class="admin">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">Portfolio > Add Portfolio</h2>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    <div class="col-xs-12">
+
+      <form class="form-horizontal" name="form" ng-submit="addPortfolio(form)">
+        <div class="form-group">
+          <label class="col-sm-3">Type</label>
+
+          <div class="col-sm-9">
+            <select name="type" class="form-control" ng-model="newPortfolio.type" ng-options="type as type for type in types" required>
+              <option value="">---Please select---</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Logo</label>
+
+          <div class="col-sm-9">
+            <input type="file" class="form-control" ng-model="newPortfolio.logo" base-sixty-four-input accept="image/*">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Client</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.client">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Client Description</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.description">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Category</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.category">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">URL</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.website">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Year</label>
+
+          <div class="col-sm-2">
+            <input type="text" class="form-control" ng-model="newPortfolio.year">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Slide Show Images</label>
+
+          <div class="col-sm-9">
+            <input type="file" class="form-control" ng-model="newPortfolio.slideImages" multiple base-sixty-four-input
+                   accept="image/*">
+            <table class="table table-bordered table-striped" ng-show="newPortfolio.slideImages.length > 0">
+              <tr>
+                <th>filename</th>
+              </tr>
+              <tr ng-repeat="file in newPortfolio.slideImages">
+                <td>{{file.filename}}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Detail</label>
+
+          <div class="col-sm-9">
+            <textarea class="form-control" ng-model="newPortfolio.detail" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Facebook</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.facebook">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Twitter</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.twitter">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Pinterest</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.pinterest">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Linkedin</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.linkedin">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Google Plus</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newPortfolio.googleplus">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-9">
+            <a class="btn btn-primary" ui-sref="admin:portfolio"> Cancel </a>
+            <button type="submit" class="btn btn-primary" ng-disabled="demoMode"> Save </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

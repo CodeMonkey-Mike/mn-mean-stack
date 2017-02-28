@@ -1,0 +1,62 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div id="page-wrapper" class="admin">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">Awards > Add Award</h2>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    <div class="col-xs-12">
+
+      <form class="form-horizontal" name="form" autocomplete="off" novalidate ng-submit="addAward(form)">
+        <div class="form-group">
+          <label class="col-sm-3">Title</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newAward.title">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Company</label>
+
+          <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="newAward.company">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Award Time</label>
+
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-xs-2">
+                <select name="startMonth" class="form-control" ng-model="newAward.awardMonth" ng-options="month.value as month.text for month in months">
+                  <option value="" selected="selected">Choose...</option>
+                </select>
+              </div>
+              <div class="col-xs-3">
+                <input type="text" class="form-control" ng-model="newAward.awardYear" placeholder="Year">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3">Award Image</label>
+
+          <div class="col-sm-9">
+            <input type="file" class="form-control" ng-model="newAward.image" base-sixty-four-input accept="image/*">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-9">
+            <a class="btn btn-primary" ui-sref="admin:award"> Cancel </a>
+            <button type="submit" class="btn btn-primary" ng-disabled="demoMode"> Save </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
